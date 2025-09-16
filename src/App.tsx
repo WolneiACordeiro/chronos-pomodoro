@@ -28,7 +28,7 @@ export function App() {
         <form className='form' action="">
           
           <div className="formRow">
-            <DefaultInput id='meuInput' labelText='Lorem' type='text' />
+            <DefaultInput id='meuInput' labelText='Lorem' type='text' placeholder='Digite aqui' defaultValue='Valor preenchido'/>
           </div>
 
           <div className="formRow">
