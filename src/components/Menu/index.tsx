@@ -29,7 +29,7 @@ export function Menu() {
     }, [theme])
 
     return (
-    <a className={styles.menu}>
+    <div className={styles.menu}>
         <a className={styles.menuLink} href="#" aria-label='Ir para a Home' title='Home'>
             <HouseIcon />
         </a>
@@ -42,6 +42,6 @@ export function Menu() {
         <a className={styles.menuLink} href="#" aria-label='Mudar Tema' title='Tema' onClick={handleThemeChange}>
             {nextThemeIcon[theme]}
         </a>
-    </a>
+    </div>
     )
 }
